@@ -1,0 +1,10 @@
+{
+  "forms": {
+    "lanparty": {
+      "name": "LAN party signup (Minecraft)",
+      "actions": [
+        { "type": "email", "to": "alex@alexgirard.com" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+baseURL: "https://mc.girard-davila.net/"
+title: "Minecraft — girard-davila.net"
+theme: []
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
+enableRobotsTXT: true
+enableGitInfo: true
+languages:
+  fr:
+    languageName: "Français"
+    weight: 1
+    params:
+      description: "Le serveur Minecraft de la maison : Paper 26.2, mini-jeux et cartes."
+  en:
+    languageName: "English"
+    weight: 2
+    params:
+      description: "Our home Minecraft server: Paper 26.2, minigames and maps."
+params:
+  author: "Alexandre Girard Davila"
+  # Formspree endpoint id (create the form at https://formspree.io and paste the id here)
+  formspree_id: "REPLACE_WITH_FORMSPREE_ID"
+  first_light: "2026-10-10"
+  server_versions: "Paper 26.2 (Java Edition)"
+  network: "LAN uniquement pour l'instant"
+  motd: "New World — DeathRespawn enabled"
+menu:
+  main:
+    - name: Serveur
+      pageRef: /serveur
+      weight: 10
+    - name: Plugins
+      pageRef: /plugins
+      weight: 20
+    - name: Mondes
+      pageRef: /mondes
+      weight: 30
+    - name: Agenda
+      pageRef: /agenda
+      weight: 40
+    - name: Rejoindre
+      pageRef: /rejoindre
+      weight: 50

@@ -1,0 +1,36 @@
+# Illustrated worlds for the gallery. Images live in static/images/.
+- id: hub
+  name_fr: "Hub (NewWorld)"
+  name_en: "Hub (NewWorld)"
+  note_fr: "Le spawn avec ses 5 portails colorés vers les mondes."
+  note_en: "The spawn with its 5 coloured gates to the worlds."
+  map: "images/maps/hub.png"
+  shot: "images/screens/hub.png"
+- id: bedwars
+  name_fr: "BedWars"
+  name_en: "BedWars"
+  note_fr: "4 arènes : Red vs Blue (until 8) et une arène 1v1v1 à 3 joueurs (map Treenan)."
+  note_en: "4 arenas: Red vs Blue (up to 8) plus a 3-player 1v1v1 (Treenan map)."
+  map: "images/maps/bedwars.png"
+  shot: "images/screens/bedwars.png"
+- id: oneblock
+  name_fr: "OneBlock"
+  name_en: "OneBlock"
+  note_fr: "Un seul bloc qui se régénère, avec progression de niveaux."
+  note_en: "A single regenerating block with level progression."
+  map: "images/maps/oneblock.png"
+  shot: "images/screens/oneblock.png"
+- id: parkour
+  name_fr: "Parkour"
+  name_en: "Parkour"
+  note_fr: "Parcours chronométrés avec checkpoints et classement."
+  note_en: "Timed courses with checkpoints and leaderboard."
+  map: "images/maps/parkour.png"
+  shot: "images/screens/parkour.png"
+- id: creative
+  name_fr: "Créatif (classique + flat)"
+  name_en: "Creative (classic + flat)"
+  note_fr: "Deux mondes créatifs (terrain classique et superflat) avec WorldEdit."
+  note_en: "Two creative worlds (classic terrain and superflat) with WorldEdit."
+  map: "images/maps/creative.png"
+  shot: "images/screens/creative.png"

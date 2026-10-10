@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="hero">
+  <p class="kicker">{{ i18n "hero_kicker" }}</p>
+  <h1>{{ .Site.Params.name | default .Site.Title }}</h1>
+  <p class="lead">{{ i18n "hero_lead" }}</p>
+  <p class="badges">
+    <span class="badge">🕯️ {{ i18n "first_light" }} {{ .Site.Params.first_light }}</span>
+    <span class="badge">🧱 {{ .Site.Params.server_versions }}</span>
+    <span class="badge">🌐 {{ .Site.Params.network }}</span>
+  </p>
+  {{ partial "register.html" . }}
+</section>
+
+<section class="summary">
+  {{ .Content }}
+</section>
+
+<section class="preview">
+  <h2>{{ i18n "plugins_title" }}</h2>
+  {{ partial "plugins-table.html" . }}
+</section>
+
+<section class="preview">
+  <h2>{{ i18n "agenda_title" }}</h2>
+  {{ partial "agenda.html" . }}
+</section>
+{{ end }}

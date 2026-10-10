@@ -1,0 +1,11 @@
+<div class="gallery">
+{{ range .Site.Data.worlds }}
+  <div class="card">
+    <img src="{{ .map | relURL }}" alt="{{ if eq $.Site.Language.Lang "en" }}{{ .name_en }}{{ else }}{{ .name_fr }}{{ end }}" loading="lazy">
+    <div class="body">
+      <h3>{{ if eq $.Site.Language.Lang "en" }}{{ .name_en }}{{ else }}{{ .name_fr }}{{ end }}</h3>
+      <p>{{ if eq $.Site.Language.Lang "en" }}{{ .note_en }}{{ else }}{{ .note_fr }}{{ end }}</p>
+    </div>
+  </div>
+{{ end }}
+</div>

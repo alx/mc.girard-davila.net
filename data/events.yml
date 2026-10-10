@@ -1,0 +1,14 @@
+# Agenda — LAN parties Minecraft. Ajouter des dates ici (pas besoin de toucher aux templates).
+upcoming:
+  - date: "TBA"
+    title: "Prochaine LAN party"
+    title_en: "Next LAN party"
+    place: "À définir"
+    place_en: "TBA"
+    status: "tba"
+past:
+  - date: "2026-10-10"
+    title: "Première lumière du serveur"
+    title_en: "Server first light"
+    place: "lamai270"
+    status: "done"

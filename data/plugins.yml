@@ -1,0 +1,53 @@
+# Plugin inventory of the server (generated/maintained via bin/mc-site-export)
+- name: BedWars
+  version: "0.2.44"
+  role: "Mini-jeu BedWars (4 arènes, équipes, générateurs, boutique)"
+  role_en: "BedWars minigame (4 arenas, teams, generators, shop)"
+- name: Oneblock
+  version: "1.6.3"
+  role: "Mini-jeu « un seul bloc » avec progression de niveaux"
+  role_en: "One-block minigame with level progression"
+- name: Parkour
+  version: "7.2.8"
+  role: "Parcours chronométrés avec checkpoints et classement"
+  role_en: "Timed parkour courses with checkpoints and leaderboard"
+- name: Multiverse-Core
+  version: "5.8.1"
+  role: "Gestion multi-mondes"
+  role_en: "Multi-world management"
+- name: Multiverse-Portals
+  version: "5.3.0"
+  role: "Portails entre les mondes (hub)"
+  role_en: "Portals between worlds (hub)"
+- name: WorldEdit
+  version: "7.4.6-beta-02"
+  role: "Édition rapide en jeu (baguette) — mondes créatifs"
+  role_en: "In-game quick edit (wand) — creative worlds"
+- name: LuckPerms
+  version: "5.5.71"
+  role: "Permissions (WorldEdit limité aux mondes créatifs)"
+  role_en: "Permissions (WorldEdit scoped to creative worlds)"
+- name: SkinsRestorer
+  version: "15.12.6"
+  role: "Skins pour comptes hors-ligne / Ely.by"
+  role_en: "Skins for offline / Ely.by accounts"
+- name: ViaVersion
+  version: "5.12.1"
+  role: "Autorise les clients plus récents"
+  role_en: "Allows newer clients to join"
+- name: ViaBackwards
+  version: "5.12.1"
+  role: "Autorise les clients plus anciens"
+  role_en: "Allows older clients to join"
+- name: LANBroadcaster
+  version: "2.4.0"
+  role: "Annonce le serveur dans l'onglet « LAN » du jeu"
+  role_en: "Advertises the server in the game's LAN tab"
+- name: DeathRespawn
+  version: "1.0"
+  role: "Réapparition à l'endroit de la mort (+ /tpdeath)"
+  role_en: "Respawn at the death location (+ /tpdeath)"
+- name: LobbyCommand
+  version: "1.0"
+  role: "Commande /lobby pour revenir au hub"
+  role_en: "/lobby command to return to the hub"

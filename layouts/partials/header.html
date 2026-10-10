@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ "/" | relLangURL }}">⛏️ <span>{{ i18n "site_title" }}</span></a>
+    <nav class="nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .PageRef | relLangURL }}">{{ i18n (printf "menu_%s" (strings.TrimPrefix "/" .PageRef)) }}</a>
+      {{ end }}
+      <span class="lang">
+        {{ range .Site.Languages }}
+          {{ if ne .Lang $.Site.Language.Lang }}
+            {{ $t := $.Translations.GetPage $.Page.Path }}
+            <a href="{{ if $t }}{{ $t.RelPermalink }}{{ else }}{{ printf "/%s/" .Lang | relURL }}{{ end }}">{{ .LanguageName }}</a>
+          {{ end }}
+        {{ end }}
+      </span>
+    </nav>
+  </div>
+</header>

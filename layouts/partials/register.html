@@ -1,0 +1,13 @@
+<form class="register" action="https://formspree.io/f/{{ .Site.Params.formspree_id }}" method="POST">
+  <h2>{{ i18n "register_title" }}</h2>
+  <p>{{ i18n "register_text" }}</p>
+  <div class="fields">
+    <input type="email" name="email" required placeholder="{{ i18n "form_email" }}" autocomplete="email">
+    <input type="text" name="name" placeholder="{{ i18n "form_name" }}" autocomplete="nickname">
+    <textarea name="message" rows="2" placeholder="{{ i18n "form_message" }}"></textarea>
+    <button type="submit">{{ i18n "form_submit" }}</button>
+  </div>
+  <p class="privacy">{{ i18n "form_privacy" }}
+    <a href="{{ "/faq" | relLangURL }}">{{ i18n "read_more" }}</a></p>
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+</form>

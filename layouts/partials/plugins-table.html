@@ -1,0 +1,11 @@
+<table class="plugins">
+  <thead><tr><th>Plugin</th><th>{{ i18n "plugins_role" }}</th></tr></thead>
+  <tbody>
+  {{ range .Site.Data.plugins }}
+    <tr>
+      <td><strong>{{ .name }}</strong> <span class="ver">{{ .version }}</span></td>
+      <td>{{ if eq $.Site.Language.Lang "en" }}{{ .role_en }}{{ else }}{{ .role }}{{ end }}</td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>

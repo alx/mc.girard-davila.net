@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}<p class="lead">{{ . }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

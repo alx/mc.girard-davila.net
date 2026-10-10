@@ -1,0 +1,22 @@
+<div class="agenda">
+  <h3>{{ i18n "agenda_upcoming" }}</h3>
+  <ul class="events">
+  {{ range .Site.Data.events.upcoming }}
+    <li class="event {{ .status }}">
+      <span class="date">{{ if eq .date "TBA" }}{{ i18n "agenda_tba" }}{{ else }}{{ .date }}{{ end }}</span>
+      <span class="title">{{ if eq $.Site.Language.Lang "en" }}{{ .title_en }}{{ else }}{{ .title }}{{ end }}</span>
+      <span class="place">{{ if eq $.Site.Language.Lang "en" }}{{ .place_en }}{{ else }}{{ .place }}{{ end }}</span>
+    </li>
+  {{ end }}
+  </ul>
+  <h3>{{ i18n "agenda_past" }}</h3>
+  <ul class="events">
+  {{ range .Site.Data.events.past }}
+    <li class="event done">
+      <span class="date">{{ .date }}</span>
+      <span class="title">{{ if eq $.Site.Language.Lang "en" }}{{ .title_en }}{{ else }}{{ .title }}{{ end }}</span>
+      <span class="place">{{ .place }}</span>
+    </li>
+  {{ end }}
+  </ul>
+</div>
