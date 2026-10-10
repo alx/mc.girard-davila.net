@@ -10,4 +10,4 @@ Welcome! We run a family **Minecraft Java** server on **Paper 26.2**, with minig
 - **Network:** LAN only for now (public address coming later)
 - **Players:** up to 5 at once
 
-See [the server](/en/serveur/), [plugins](/en/plugins/), [worlds](/en/mondes/), [schedule](/en/agenda/) and [how to join](/en/rejoindre/).
+See [the server](en/serveur/), [plugins](en/plugins/), [worlds](en/mondes/), [schedule](en/agenda/) and [how to join](en/rejoindre/).

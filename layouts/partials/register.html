@@ -8,6 +8,6 @@
     <button type="submit">{{ i18n "form_submit" }}</button>
   </div>
   <p class="privacy">{{ i18n "form_privacy" }}
-    <a href="{{ "/faq" | relLangURL }}">{{ i18n "read_more" }}</a></p>
+    <a href="{{ (.Site.GetPage "faq").RelPermalink }}">{{ i18n "read_more" }}</a></p>
   <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
 </form>

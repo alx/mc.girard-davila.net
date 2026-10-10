@@ -4,8 +4,7 @@ theme: []
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
-relativeURLs: true
-canonifyURLs: false
+relativeURLs: false
 enableGitInfo: true
 languages:
   fr:

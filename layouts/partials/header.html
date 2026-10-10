@@ -1,9 +1,10 @@
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="{{ "/" | relLangURL }}">⛏️ <span>{{ i18n "site_title" }}</span></a>
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">⛏️ <span>{{ i18n "site_title" }}</span></a>
     <nav class="nav">
       {{ range .Site.Menus.main }}
-        <a href="{{ .PageRef | relLangURL }}">{{ i18n (printf "menu_%s" (strings.TrimPrefix "/" .PageRef)) }}</a>
+        {{ $href := .URL }}{{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
+        <a href="{{ $href }}">{{ i18n (printf "menu_%s" (strings.TrimPrefix "/" .PageRef)) }}</a>
       {{ end }}
       <span class="lang">
         {{ $cur := .Site.Language.Lang }}
