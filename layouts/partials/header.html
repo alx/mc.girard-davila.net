@@ -1,7 +1,10 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="{{ .Site.Home.RelPermalink }}">⛏️ <span>{{ i18n "site_title" }}</span></a>
-    <nav class="nav">
+    <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+      <span class="bars" aria-hidden="true"></span>
+    </button>
+    <nav class="nav" id="site-nav">
       {{ range .Site.Menus.main }}
         {{ $href := .URL }}{{ with .Page }}{{ $href = .RelPermalink }}{{ end }}
         <a href="{{ $href }}">{{ i18n (printf "menu_%s" (strings.TrimPrefix "/" .PageRef)) }}</a>
