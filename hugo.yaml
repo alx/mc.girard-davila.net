@@ -1,9 +1,11 @@
-baseURL: "https://mc.girard-davila.net/"
+baseURL: "https://alx.github.io/mc.girard-davila.net/"
 title: "Minecraft — girard-davila.net"
 theme: []
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
+relativeURLs: true
+canonifyURLs: false
 enableGitInfo: true
 languages:
   fr:
