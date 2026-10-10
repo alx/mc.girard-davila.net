@@ -5,6 +5,7 @@
     <div class="body">
       <h3>{{ if eq $.Site.Language.Lang "en" }}{{ .name_en }}{{ else }}{{ .name_fr }}{{ end }}</h3>
       <p>{{ if eq $.Site.Language.Lang "en" }}{{ .note_en }}{{ else }}{{ .note_fr }}{{ end }}</p>
+      {{ with .shot }}<img class="shot" src="{{ . | relURL }}" alt="capture in-game" loading="lazy">{{ end }}
     </div>
   </div>
 {{ end }}
