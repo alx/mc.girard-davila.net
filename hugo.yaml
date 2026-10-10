@@ -42,3 +42,6 @@ menu:
     - name: Rejoindre
       pageRef: /rejoindre
       weight: 50
+    - name: Pinecone
+      pageRef: /pinecone
+      weight: 60
