@@ -30,6 +30,9 @@ menu:
     - name: Serveur
       pageRef: /serveur
       weight: 10
+    - name: Commandes
+      pageRef: /commandes
+      weight: 15
     - name: Plugins
       pageRef: /plugins
       weight: 20

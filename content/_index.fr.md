@@ -10,4 +10,4 @@ Bienvenue ! Nous faisons tourner un serveur **Minecraft Java** familial sur **Pa
 - **Réseau :** LAN uniquement pour le moment (adresse publique à venir)
 - **Joueurs :** jusqu'à 5 en simultané
 
-Voir [le serveur](serveur/), [les plugins](plugins/), [les mondes](mondes/), [l'agenda](agenda/) et [comment rejoindre](rejoindre/).
+Voir [le serveur](serveur/), [les commandes](commandes/), [les plugins](plugins/), [les mondes](mondes/), [l'agenda](agenda/) et [comment rejoindre](rejoindre/).
