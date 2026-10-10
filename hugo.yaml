@@ -19,7 +19,7 @@ languages:
 params:
   author: "Alexandre Girard Davila"
   # Formspree endpoint id (create the form at https://formspree.io and paste the id here)
-  formspree_id: "REPLACE_WITH_FORMSPREE_ID"
+  formspree_id: "myekjeez"
   first_light: "2026-10-10"
   server_versions: "Paper 26.2 (Java Edition)"
   network: "LAN uniquement pour l'instant"
